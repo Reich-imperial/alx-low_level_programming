@@ -3,7 +3,7 @@
 /**
  * main - entry point
  * description: you are not allowed to use any function listed
- * return: (0)
+ * Return: Always 0
  */
 int main(void)
 {
