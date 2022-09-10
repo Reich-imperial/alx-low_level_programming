@@ -9,7 +9,6 @@
  * The string last digit of n
  * Return: 0
  */
-
 int main(void)
 {
 	int n;
