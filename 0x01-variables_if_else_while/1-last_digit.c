@@ -1,13 +1,15 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
+
 /**
- * Main - assign a random number to the variables n each time it is executed  
+ * main - assign a random number to the variables n each time it is executed
  *
- * Description: using the main function
+ * description: using the main function
  * The string last digit of n
  * Return: 0
  */
+
 int main(void)
 {
 	int n;
