@@ -4,7 +4,6 @@
 
 /**
  * Main - assign a random number to the variables n each time 
- *
  * Description: using the main function
  * The string last digit of n
  * Return: 0
