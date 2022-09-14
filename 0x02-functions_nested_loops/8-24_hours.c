@@ -1,10 +1,8 @@
 #include "main.h"
-
 /**
  * jack_bauer - func prints every minute of the day of jack bauer
  * Return: 0
  */
-
 void jack_bauer(void)
 {
 	int hours = 0;
@@ -20,7 +18,7 @@ void jack_bauer(void)
 			hours_remainder = hours % 10;
 			_putchar(hours / 10 + '0');
 			_putchar(hours_remainder + '0');
-			_putchar('.');
+			_putchar(':');
 			_putchar(minutes / 10 + '0');
 			_putchar(mins_remainder + '0');
 			minutes++;
