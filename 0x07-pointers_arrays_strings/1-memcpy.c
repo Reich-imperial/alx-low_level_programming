@@ -2,23 +2,20 @@
 #include "main.h"
 
 /**
- * _strchr - a function that locates a character in a string
- * @s: the string to locate the first occurence of c
- * @c: the character to  locate
- * Return: returns a pointer to the first occurence of c
+ * _memcpy - a function that copies a memory area
+ * @dest: the destination buffer
+ * @src: the source buffer
+ * @n: area size
+ * Return: returns nothing
  */
 
-char *_strchr(char *s, char c)
+char *_memcpy(char *dest, char *src, unsigned int n)
 {
-	int i;
+	unsigned int i;
 
-	for (i = 0; 1 ; i++)
+	for (i = 0; i < n; i++)
 	{
-		if (s[i] == c)
-			return ((s + i));
-		if (s[i] == 0)
-			break;
-
+		dest[i] = src[i];
 	}
-	return (NULL);
+	return (dest);
 }
